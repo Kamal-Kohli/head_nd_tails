@@ -38,3 +38,15 @@ nav ul li a {
     border-bottom: 2px solid var(--blue);
     font-weight: 500;
 }
+
+/* Footer */
+footer {
+    background-color: #212a31; 
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: auto;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
