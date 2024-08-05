@@ -121,18 +121,6 @@ nav ul li a {
     margin: 15px 0;
 }
 
-/* Footer */
-footer {
-    background-color: #212a31; 
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    margin-top: auto;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
 /* Floating icons */
 
 .floating-icons {
@@ -162,6 +150,11 @@ footer {
     
 }
 
+.floating-icons a:hover {
+    background-color: #212a31;
+}
+
+
 /* Pagination */
 .pagination {
     display: flex;
@@ -184,4 +177,9 @@ footer {
 .pagination a:hover {
     background: #212a31;
     color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #212a31; 
 }
