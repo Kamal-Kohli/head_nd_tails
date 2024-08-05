@@ -145,8 +145,9 @@ nav ul li a {
 /* Floating icons */
 .floating-icons {
     position: fixed;
-    bottom: 4rem;
+    top: 50%;
     right: 1rem;
+    transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -200,6 +201,19 @@ nav ul li a {
 }
 
 /* Footer */
+
+footer .container {
+    width: 100%;
+}
+
 footer {
     background-color: #212a31; 
+    height: 75px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+footer p {
+    margin: 0; 
 }
