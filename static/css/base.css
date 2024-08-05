@@ -116,6 +116,11 @@ nav ul li a {
     border-radius: 5px;
 }
 
+/* Separator line */
+.hr {
+    margin: 15px 0;
+}
+
 /* Footer */
 footer {
     background-color: #212a31; 
