@@ -50,3 +50,32 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Floating icons */
+
+.floating-icons {
+    position: fixed;
+    bottom: 4rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  
+    
+}
+
+.floating-icons a {
+    background: #124e66;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    
+}
