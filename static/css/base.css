@@ -137,10 +137,7 @@ nav ul li a {
     color: #fff;
 }
 
-/* Separator line */
-.hr {
-    margin: 15px 0;
-}
+
 
 /* Floating icons */
 .floating-icons {
@@ -204,11 +201,12 @@ nav ul li a {
 
 footer .container {
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 footer {
     background-color: #212a31; 
-    height: 75px;
+    height: 150px;
     display: flex; 
     align-items: center; 
     justify-content: center;
@@ -216,4 +214,18 @@ footer {
 
 footer p {
     margin: 0; 
+}
+
+.social-links {
+    margin-top: 0.5rem; 
+}
+
+.social-links a {
+    text-decoration: none; 
+    color: #ffffff; 
+    transition: color 0.3s ease; 
+}
+
+.social-links a:hover {
+    color: #cccccc; 
 }
