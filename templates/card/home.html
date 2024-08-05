@@ -40,17 +40,17 @@
 <div class="pagination">
     <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
-        
+        {% if page > 1 %}
           <li class="page-item disabled">
-            <a href="">Previous</a>
+            <a href="?country={{ country }}&category={{ category }}&page={{ page|add:"-1" }}">Previous</a>
           </li>
-        
+        {% endif %}
 
-        
+        {% if has_more %}
           <li class="page-item">
-            <a href="">Next</a>
+            <a href="?country={{ country }}&category={{ category }}&page={{ page|add:"1" }}">Next</a>
           </li>
-        
+        {% endif %}
         </ul>
     </nav>
 </div>
